@@ -10,7 +10,7 @@
 </head>
 <body>
      <div class="page-header">
-        <h1 class=" text text-bg-danger text-center">Expenses Tracker</h1>
+        <h1 class=" text text-bg-danger text-center">Expense Tracker</h1>
     </div>
     <div class="container">
         <form>
@@ -20,17 +20,17 @@
             <input type="text" class="form-control" id="description">
             <label for="category" class="form-label">Category: </label>
             <select id="category">
-                <option>Fuel</option>
+                <option>Movies</option>
                 <option>Food</option>
+                <option>Fuel</option>
                 <option>Electricity</option>
-                <option>Movie</option>
             </select>
             <button class="btn btn-primary" onclick="getTheUserExpenses(event)">Add Expenses</button>
         </form>
     </div>
     <div>
-        <h2 class="text2 text-decoration-underline">Expanses List</h2>
-        <ul id="expensesList"></ul>
+        <h2 class="text2 text-decoration-underline">List of Expenses</h2>
+        <ul id="ExpensesList"></ul>
     </div>
     <script src="track.js"></script>
     
